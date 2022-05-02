@@ -180,19 +180,28 @@ body {
   color: var(--active-link-color);
 }
 
-.footer-list {
+.footer > .container {
   display: flex;
+
+}
+
+.footer-joinus {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: flex-start;
+  padding: 0;
+  margin-left: 70px;
 }
 
 .joinus {
-  margin-top:12px;
+  margin-top: 12px;
   margin-left: 70px;  
   text-align: left;
 }
 
 .joinus-title {
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin: 0;
 
   color: var(--contrast-text);
   font-weight: 700;
@@ -204,6 +213,8 @@ body {
 
 .joinus-list {
   display: flex;
+  padding: 0;
+  margin: 20px 0;
 }
 
 .joinus-list > .link-joinus {
@@ -313,11 +324,13 @@ body {
 }
 
 .advantage-icon {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  padding: 25px 100px;
+  padding: 0;
 
   background-color: var(--light-grey-background);
   background-repeat: no-repeat;
